@@ -4,6 +4,7 @@ html {
 
 body {
     color: white;
+    background-color: #0f4c81;
 }
 
 #headerPic {
@@ -21,8 +22,9 @@ h1 {
     right: 0;
     top: 10%;
     color: white;
-    width: 100%;
+    width: 99%;
     font-size: 2, 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #profilPicture {
@@ -53,6 +55,7 @@ h1 {
     width: 25%;
     font-size: 2, 5rem;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .NAME {
@@ -68,6 +71,7 @@ h1 {
     color: white;
     width: 10%;
     font-size: 2, 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .parallax1 {
@@ -83,6 +87,7 @@ h1 {
     width: 100%;
     height: 35rem;
     background-color: rgb(34, 44, 58);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #rectangle1 {
@@ -135,11 +140,19 @@ h1 {
     width: 100%;
     height: 35rem;
     background-color: rgb(34, 44, 58);
+    display: flex;
+    flex-direction: row column;
+    flex-wrap: wrap;
+    align-self: auto;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #triangleHTTP {
-    height: 8rem;
-    width: 8rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 #triangleCSS {
@@ -148,23 +161,38 @@ h1 {
 }
 
 #triangleJAVA {
-    height: 8rem;
-    width: 8rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 #trianglePHP {
-    height: 8rem;
-    width: 8rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 #triangleMYSQL {
-    height: 8rem;
-    width: 9rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 #trianglejQuery {
-    height: 8rem;
-    width: 8rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+#triangleBootStrap {
+    height: 10rem;
+    width: 10rem;
+}
+
+#triangleAgular {
+    height: 10rem;
+    width: 10rem;
+}
+
+#triangleAgile {
+    height: 10rem;
+    width: 10rem;
 }
 
 #parallax3 {
@@ -177,4 +205,22 @@ h1 {
     width: 100%;
     height: 35rem;
     background-color: rgb(34, 44, 58);
+    display: flex;
+    flex-direction: row column;
+    flex-wrap: wrap;
+    align-self: auto;
+    justify-content: end;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#gmailLogo {
+    height: 3rem;
+    width: 3rem;
+}
+
+#gitHubLogo {
+    height: 3rem;
+    width: 3rem;
 }
